@@ -1,2 +1,3 @@
-# python-project
-This is a template for python projects
+# Neural Networks
+
+This repository has some implementations of neural networks developed to practice basic concepts. 
