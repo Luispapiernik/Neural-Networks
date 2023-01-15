@@ -7,9 +7,13 @@ authors = ["Luis Papiernik <lpapiernik24@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 numpy = "^1.24.1"
+matplotlib = "^3.6.3"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.19.0"
+
+[tool.poetry.group.dev.dependencies]
+pyqt5 = "^5.15.7"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
