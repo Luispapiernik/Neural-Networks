@@ -3,17 +3,17 @@ import numpy as np
 from neural_networks.core.activations import sigmoid
 
 class LogisticPerceptron:
-    def __init__(self, input_size: int):
+    def __init__(self, input_size: int) -> None:
         self.input_size = input_size
         self.reset_parameters()
 
-    def initialize_parameters(self, input_size: int):
+    def initialize_parameters(self, input_size: int) -> None:
         weights = np.random.randn(input_size, 1)
         bias = 0
 
         return weights, bias
     
-    def reset_parameters(self):
+    def reset_parameters(self) -> None:
         self.weights, self.bias = self.initialize_parameters(self.input_size)
 
     def activation(self, x):

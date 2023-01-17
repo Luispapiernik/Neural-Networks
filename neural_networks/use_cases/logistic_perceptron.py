@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from neural_networks.core.perceptron import LogisticPerceptron
+from neural_networks.core.logistic_perceptron import LogisticPerceptron
 
 
 def learn_logical_and():
